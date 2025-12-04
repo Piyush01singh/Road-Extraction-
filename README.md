@@ -1,20 +1,42 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/drive/1I1q_II2KF3TNJpgFwiFKI0X70Lzigk-k
-
-## Run Locally
-
-**Prerequisites:**  Node.js
+The link for deploy is - https://road-extraction.netlify.app/
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+# Road Extraction ML Pipeline (React)
+
+A simple interactive machine-learning dashboard that shows the full ML pipeline for detecting roads from satellite images.  
+The project simulates backend ML processing and displays results using clean UI components, charts, and step-wise code previews.
+
+---
+
+## 🚀 Features
+- Step-by-step ML workflow  
+- Python code preview (auto-updates per step)  
+- File upload + sample datasets  
+- Charts (feature distribution, ROC, confusion matrix, training loss)  
+- AutoML model comparison  
+- AI-powered assistant (Gemini)  
+- Light/Dark theme switching  
+
+---
+
+## 🛠️ Tech Used
+### **Frontend**
+- React (Vite)
+- TypeScript / JavaScript
+- TailwindCSS
+- Lucide Icons
+
+### **ML Simulation**
+- Custom JS services  
+-  model metrics, predictions, ROC curves  
+- Python code generation panel  
+
+### **AI Integration**
+- Gemini API (optional)
+
+---
+
+## 📦 Installation
+```bash
+npm install
+npm run dev
