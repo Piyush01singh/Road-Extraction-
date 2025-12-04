@@ -1,0 +1,5 @@
+{
+  "name": "Road Extraction",
+  "description": "An interactive machine learning dashboard for automated road extraction from satellite imagery, featuring a complete 11-step data science pipeline simulation and AI-powered insights.",
+  "requestFramePermissions": []
+}
